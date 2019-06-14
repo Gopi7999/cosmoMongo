@@ -6,7 +6,7 @@ namespace CosmosDBMongoAPI
 {
     class Program
     {
-        private static string connectionString = "mongodb://gopi-mongo:TJUUNjN8odE0igy4qZ26Q0tupBZww3Qdk7ZgYMDyuUCsdCL13WOq7aSpT123Wt2uFywhkErftacCzX8lgnwdVw==@gopi-mongo.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
+        private static string connectionString = "mongodb://gopi-mongo:@gopi-mongo.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
         private static string databaseName = "eshop";
         private static string collectionName = "cars";
 
